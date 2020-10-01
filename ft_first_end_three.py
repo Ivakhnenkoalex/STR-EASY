@@ -1,8 +1,8 @@
 def ft_len(str):
-    r = 0
+    l = 0
     for i in str:
-        r = r + 1
-    return r
+        l += 1
+    return (l)
 
 
 def ft_first_end_three(str):
@@ -10,4 +10,3 @@ def ft_first_end_three(str):
         return(str[:3] + str[-3:])
     else:
         return(str[0] * ft_len(str))
-
