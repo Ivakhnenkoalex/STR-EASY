@@ -3,7 +3,7 @@ def ft_percent_lower_uppercase(str):
     s = 0
     for i in str:
         if i == i.upper():
-            m += 1
+            m = m + 1
         else:
-            s += 1
+            s = s + 1
     return m / s * 100

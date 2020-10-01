@@ -1,14 +1,14 @@
 def ft_len(str):
-    a = 0
+    n = 0
     for i in str:
-        a += 1
-    return a
+        n = n + 1
+    return n
 
 
 def ft_even_place(str):
     r = ""
-    b = ft_len(str)
-    for i in range(b):
+    p = ft_len(str)
+    for i in range(p):
         if i % 2 == 0:
             r = r + str[i]
-    return(r)
+    return (r)
