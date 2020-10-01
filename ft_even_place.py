@@ -1,8 +1,8 @@
 def ft_len(str):
-    n = 0
+    l = 0
     for i in str:
-        n = n + 1
-    return n
+        l = l + 1
+    return l
 
 
 def ft_even_place(str):
